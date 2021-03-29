@@ -1,3 +1,4 @@
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/miraficus/PCSHUTDOWN)
 # PCSHUTDOWN
 Batch file for turning off your pc after some time.
 
