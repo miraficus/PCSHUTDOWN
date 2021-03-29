@@ -14,4 +14,4 @@ Download file and launch it.
 
 ## Screenshot
 
-![Image](Icon-pictures.png "screenshot")
+![screenshot](https://user-images.githubusercontent.com/63237821/112871517-9ea99800-90bf-11eb-83ca-38e1934d2c6b.png)
