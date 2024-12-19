@@ -17,4 +17,4 @@ Stáhněte soubor a spusťte jej.
 
 ## Screenshot
 
-![screenshot_en](https://github.com/miraficus/PCSHUTDOWN/blob/main/Screenshot/EN.PNG)
+![screenshot_en](https://github.com/miraficus/PCSHUTDOWN/blob/main/Screenshot/CZ.PNG)
