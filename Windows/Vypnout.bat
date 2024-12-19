@@ -9,12 +9,20 @@ ECHO [32m2  [33m30 MINUT
 ECHO [32m3  [33m1 HODINU
 ECHO [32m4  [33m2 HODINY
 ECHO [32m5  [33m4 HODINY
+ECHO [32m6  [33m6 HODIN
+ECHO [32m7  [33m8 HODIN
+ECHO [32m8  [33m10 HODIN
+ECHO [32m9  [33m12 HODIN
 ECHO [32mA  [31mPrerusit vypnuti!
 ECHO [32mE  [36mUkoncit program![0m
 
-@CHOICE /C:12345AE /N
-IF ERRORLEVEL 7 GOTO end
-IF ERRORLEVEL 6 GOTO abort
+@CHOICE /C:123456789AE /N
+IF ERRORLEVEL 11 GOTO end
+IF ERRORLEVEL 10 GOTO abort
+IF ERRORLEVEL 9 GOTO 12h
+IF ERRORLEVEL 8 GOTO 10h
+IF ERRORLEVEL 7 GOTO 8h
+IF ERRORLEVEL 6 GOTO 6h
 IF ERRORLEVEL 5 GOTO 4h
 IF ERRORLEVEL 4 GOTO 2h
 IF ERRORLEVEL 3 GOTO 1h
@@ -54,6 +62,34 @@ GOTO start
 CLS
 ECHO [31mZvolili jste [33m4 HODINY![36m
 shutdown /s /t 14400
+timeout 5
+GOTO start
+
+:6h
+CLS
+ECHO [31mZvolili jste [33m6 HODIN![36m
+shutdown /s /t 21600
+timeout 5
+GOTO start
+
+:8h
+CLS
+ECHO [31mZvolili jste [33m8 HODIN![36m
+shutdown /s /t 28800
+timeout 5
+GOTO start
+
+:10h
+CLS
+ECHO [31mZvolili jste [33m10 HODIN![36m
+shutdown /s /t 36000
+timeout 5
+GOTO start
+
+:12h
+CLS
+ECHO [31mZvolili jste [33m12 HODIN![36m
+shutdown /s /t 43200
 timeout 5
 GOTO start
 
