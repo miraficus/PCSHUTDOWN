@@ -2,18 +2,18 @@
 [![CZ](https://user-images.githubusercontent.com/63237821/79049510-6138ca00-7c24-11ea-81e2-6fe75542a453.png)](https://github.com/miraficus/PCSHUTDOWN/blob/main/CZREADME.md)
 
 # PCSHUTDOWN
-Batch file for turning off your pc after some time.
+Dávkový soubor pro vypnutí počítače po určité době.
 
-## Options
+## Možnosti
 
-You can choose from:
-15 minutes, 30 minutes, 1 hour, 2 hours, 4 hours, 6 hours, 8 hours, 10 hours and 12 hours
+Můžete si vybrat:
+15 minut, 30 minut, 1 hodinu, 2 hodiny, 4 hodiny, 6 hodin, 8 hodin, 10 hodin a 12 hodin.
 
-You can also abort shutdown!
+Vypnutí můžete také zrušit!
 
-## Usage
+## Použití
 
-Download file and launch it.
+Stáhněte soubor a spusťte jej.
 
 ## Screenshot
 
